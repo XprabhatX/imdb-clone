@@ -1,0 +1,27 @@
+{
+  "name": "imdb-clone",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XprabhatX/imdb-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XprabhatX/imdb-clone/issues"
+  },
+  "homepage": "https://github.com/XprabhatX/imdb-clone#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3"
+  }
+}
