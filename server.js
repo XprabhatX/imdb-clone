@@ -13,6 +13,6 @@ app.use(cors());
 app.use('/api', movieRoutes);
 
 const port = process.env.PORT || 3001;
-app.listen(port, () => {console.log(`listening on port ${port} 🌎✔`)});
+app.listen(port, () => {console.log(`🌎 ✔ listening on port ${port}`)});
 
 dbConnect();

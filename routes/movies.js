@@ -39,8 +39,6 @@ router.get("/movies", async(req,res) => {
             sortBy[sort[0]] = "asc";
         }
 
-        console.log(sortBy);
-
         // Searching in movies collection with different parameters
         const movies = await movie.find({ name: { $regex: search, $options: "i" } })
 			.where("genre")
